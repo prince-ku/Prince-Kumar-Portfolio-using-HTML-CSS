@@ -1,0 +1,517 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Kanit:wght@300;400;600;700&family=Montserrat:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  /* box-sizing: border-box; */
+}
+/* Header Start Here! */
+body {
+  justify-content: center;
+}
+.header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  /* background-color: red; */
+  /* max-width: 1550px; */
+  max-height: 40px;
+}
+.menu {
+  margin-left: 30px;
+  cursor: pointer;
+
+  /* margin-top: 1px; */
+}
+.home-page .header .logo {
+  font-family: "Inter";
+  font-weight: 700;
+  display: flex;
+  align-items: left;
+  font-size: 40px;
+  margin-left: -550px;
+  cursor: pointer;
+}
+.home-page .header .logo span {
+  color: #ffb400;
+}
+
+.header .navbar li {
+  list-style: none;
+  display: inline-block;
+}
+.header .navbar li a {
+  font-size: 16px;
+  color: white;
+  color: black;
+  margin-right: 25px;
+  font-weight: 500;
+}
+.header .download-btn {
+  border-radius: 10px;
+  background: transparent;
+  border-color: #ffb400;
+  padding: 15px;
+  box-shadow: none;
+  border-width: 4px;
+  cursor: pointer;
+  border-style: solid;
+}
+.header .download-btn a {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+.night-mode {
+  display: inline-block;
+  margin-left: 10px;
+  position: relative;
+  cursor: pointer;
+}
+/* Header Ends Here! */
+/* Home page Start here */
+
+/* Banner Start here! */
+
+.banner {
+  display: inline-flex;
+  width: 100%;
+}
+.banner .name {
+  font-size: 45px;
+  font-family: "Inter";
+  font-weight: 700;
+  width: 60%;
+  margin-top: 100px;
+  margin-left: 110px;
+  margin-bottom: 350px;
+}
+.banner .name span {
+  color: #ffb400;
+}
+.banner .bio {
+  font-size: 16px;
+  background-color: azure;
+  font-family: "Inter";
+  font-weight: 300;
+  /* background-color: red; */
+  width: 60%;
+  margin-top: 220px;
+  margin-left: -922px;
+  margin-bottom: 30px;
+  text-align: left;
+  color: grey;
+  background: none;
+}
+.banner .profile-img {
+  /* background-color: azure; */
+  width: 30%;
+  text-align: center;
+  position: relative;
+  margin-top: -20px;
+}
+.banner .hire-me button {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter";
+  padding-left: 30px;
+  padding-right: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  text-align: center;
+  border: none;
+  background: #ffb400;
+  width: 60%;
+  margin-top: 320px;
+  margin-left: -920px;
+  margin-bottom: 10px;
+}
+/* Banner End here! */
+
+/* Services Start here! */
+.services {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.services .service-items {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  font-family: "Inter";
+  font-weight: 700;
+}
+.services .heading {
+  text-align: center;
+  font-size: 32px;
+}
+.services .service-items .web-dev {
+  width: 33%;
+
+  text-align: center;
+}
+.services .service-items .ui-ux {
+  width: 33%;
+  text-align: center;
+}
+.services .service-items .graphic {
+  width: 33%;
+  text-align: center;
+  margin-top: -8px;
+}
+.services .service-items .info {
+  font-family: "Inter";
+  font-weight: 400;
+  margin-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  color: grey;
+}
+/* Services End here! */
+/* Recommendations Start here */
+.recommendation {
+  width: 100%;
+  margin-top: 30px;
+}
+.recommendation .heading {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 100px;
+}
+.recommendation .recommendation-items {
+  width: 100%;
+  display: flex;
+  margin-top: 60px;
+  font-family: "Inter";
+  font-weight: 700;
+}
+.recommendation-items .review1 {
+  width: 33%;
+  text-align: left;
+  padding-left: 60px;
+}
+.recommendation-items .review2 {
+  width: 33%;
+  text-align: left;
+  padding-left: 60px;
+}
+.recommendation-items .review3 {
+  width: 33%;
+  text-align: left;
+  padding-left: 60px;
+}
+.recommendation-items .review-info {
+  font-family: "Inter";
+  font-weight: 300;
+  margin-top: 10px;
+  text-align: left;
+  color: grey;
+  padding-right: 40px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.recommendation-items .person {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+}
+.recommendation-items .person img {
+  width: 30%;
+}
+.recommendation-items .person-info {
+  width: 70%;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+.person-info .user-position {
+  font-weight: 500;
+  font-size: 15px;
+  color: grey;
+}
+.slide {
+  text-align: center;
+  margin-top: 100px;
+}
+/* Recommendations End here */
+/* User Query End here */
+.user-query {
+  width: 100%;
+
+  display: flex;
+  padding-top: 70px;
+}
+.user-query .query-ans {
+  width: 40%;
+
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.user-query .query-ans h3 {
+  font-size: 40px;
+}
+.user-query .query-ans span {
+  color: #ffb400;
+}
+.user-query .query-ans p {
+  font-size: 16px;
+  color: grey;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+.query-ans .hire-me button {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter";
+  border-radius: 5px;
+  white-space: nowrap;
+  text-align: center;
+  border: none;
+  background: #ffb400;
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 10px 15px 10px 15px;
+  color: white;
+}
+.user-query .component {
+  width: 60%;
+  display: flex;
+  margin-top: -30px;
+}
+.component .component-left {
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.component .component1 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.component .summary {
+  font-size: 16px;
+  color: grey;
+  padding-top: 10px;
+}
+.component .component2 {
+  margin-top: 96px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.component .component3 {
+  width: 50%;
+  margin-top: 100px;
+  padding-top: 20px;
+}
+/* User Query End here */
+
+/* <!-- Education Section Start here! --> */
+.education {
+  padding-bottom: 100px;
+  margin-top: 150px;
+}
+.education h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 100px;
+}
+.education h4 {
+  font-weight: 600;
+  font-size: 18px;
+}
+.education-section {
+  width: 100%;
+  display: flex;
+  padding-top: 40px;
+}
+.education .institute {
+  padding-left: 200px;
+  width: 40%;
+}
+.education .institute .college {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.education .institute .role-year {
+  display: flex;
+  margin-top: 30px;
+  font-weight: 500;
+}
+.role-year .year {
+  margin-left: 292px;
+
+  background-color: #ffb400;
+  padding: 7px;
+  border-radius: 2px;
+  font-size: 10px;
+}
+.education .course {
+  width: 60%;
+}
+
+.course .standard {
+  padding-left: 30px;
+  padding-right: 150px;
+}
+.course .standard .stream {
+  padding: 20px;
+  margin-top: 20px;
+  padding-right: 50px;
+}
+.course .standard .stream-1 {
+  padding: 20px;
+  margin-top: -2px;
+  padding-right: 50px;
+}
+.course .standard .stream-2 {
+  padding: 20px;
+  margin-top: -2px;
+  padding-right: 50px;
+}
+.standard h4 {
+  font-weight: 500;
+  font-size: 18px;
+}
+.standard p {
+  color: grey;
+  padding-top: 20px;
+  font-size: 16px;
+}
+/* <!-- Education Section End  here! --> */
+/* <!-- Contact me Section start  here! --> */
+.contact-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contact-section .contact-me {
+  width: 40%;
+  background-color: black;
+  border-radius: 20px 0px 0px 20px;
+  padding-left: 60px;
+  padding-top: 60px;
+  /* padding-bottom: 20px; */
+  margin-bottom: 50px;
+}
+.contact-me h4 {
+  color: #ffb400;
+  font-size: 32px;
+}
+.contact-me p {
+  color: white;
+  margin-top: 30px;
+  padding-left: 2px;
+  font-weight: 700px;
+  font-style: "Inter";
+}
+.contact-section .contact-form {
+  width: 40%;
+  margin-bottom: 50px;
+  background-color: black;
+  border-radius: 0px 20px 20px 0px;
+  padding-left: 150px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  color: white;
+  font-style: "Inter";
+  font-weight: 600;
+  font-size: 18px;
+}
+.contact-form p {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.contact-form .input {
+  background-color: white;
+  width: 300px;
+  /* background: transparent; */
+  font-size: 18px;
+  /* border: none; */
+  border-style: dotted;
+  border-radius: 30px;
+  height: 15px;
+  padding: 20px;
+}
+.contact-form .btn {
+  background: #ffb400;
+  border-radius: 30px;
+  border-style: solid;
+  text-align: center;
+  padding: 10px;
+  font-family: "Inter";
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  margin-top: 30px;
+  height: 60px;
+  width: 150px;
+  font-size: 18px;
+}
+/* <!-- Contact me Section End  here! --> */
+hr{
+
+width: 100%;
+  margin-top: 40px;
+}
+/* <!-- Footer start here!  --> */
+.footer {
+  width: 100%;
+  display: flex;
+  margin: 10px 50px 100px 50px;
+}
+
+.footer p{
+  font-family: "Inter";
+  font-weight: 700;
+padding: 30px 0px 15px 0px;
+
+}
+.footer li{
+  list-style: none;
+padding: 10px 0px 0px 0px;
+
+
+}
+.footer .name-logo{
+  width: 40%;
+  font-weight: 700;
+font-size: 32px;
+}
+.footer .name-logo span{
+color: #ffb400;
+}
+.footer .explore-section{
+  width: 20%;
+}
+.footer .about-section{
+width: 20%;
+}
+.footer .social-media{
+width: 20%;
+}
+.copyright{
+  font-family: "Inter";
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+/* <!-- Footer End here!  --> */
+/* Home page End here */
